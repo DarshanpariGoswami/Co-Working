@@ -1,0 +1,98 @@
+#head_tags
+{
+	padding: 25px;
+}
+
+
+#green_box
+{
+	background-color: green;
+	color: white;
+	padding: 70px;
+}
+
+#grey-invisible-box-1
+{
+	
+	padding: 70px;
+	visibility: hidden;
+}
+#parent-class:hover #grey-invisible-box-1
+{
+	visibility: visible;
+	background-color: grey;
+}
+#ocons-row
+{
+	padding:15px;
+	padding-left: 100px;
+}
+#ocons-col
+{
+	padding: 30px;
+}
+#icons
+{
+	width: 30%;
+}
+.slide-image
+{
+ animation-name: fade;
+}
+.slide-container
+{
+	position: relative;
+}
+#heading-secsion
+{
+	background-color: black;
+    color: white;
+
+	padding-left: 100px;
+	 position:fixed;
+}
+#blue-box
+{
+	background: #341abd;
+	padding: 75px;
+	color: white;
+}
+#grey-invisible-box
+{
+
+	padding: 87px;
+	visibility: hidden;	
+
+}
+#parent:hover #grey-invisible-box
+{
+	background-color: grey;
+	visibility: visible;
+	color: white;
+}
+
+
+#green-invisible-box
+{
+	background-color: limegreen;
+	padding: 127px;
+
+}
+#We_create_a_workspace
+{
+	padding: 20px;
+}
+
+button
+{
+	background-color: #20a997;
+	padding: 10px;
+	font-size: 20px;
+}
+
+@media only screen and (max-width:900px)
+{
+	#heading-secsion{
+		position: relative;
+	}
+}
